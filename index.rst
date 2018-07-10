@@ -8,8 +8,9 @@ Welcome to sparts-docs's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: test:
 
+   ledger
 
 
 Indices and tables
