@@ -1,9 +1,9 @@
-#Installation
+# Installation
 
-##Download
+## Download
 clone this docker image from here
 
-##Configuration
+## Configuration
 change these configuration files on your docker instance
 
 ## Check
