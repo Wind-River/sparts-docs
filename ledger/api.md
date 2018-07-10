@@ -1,7 +1,5 @@
 # Sparts Project: Ledger Node API
 
-[TOC]
-
 ## Overview
 
 The API for the SParts ledger is presented here. The ledger API calls are defined in part I of this document. The record types (objects) past between the ledger and client application are defined in part II of this document. Types include supplier, part, category as so forth. 
@@ -49,23 +47,23 @@ Response form:
 	message: 	"OK",
 	result_type: "ArtifactRecord",
 	result: 	{
-				name: "...",
-				uuid: "...",
-				filename: "...",
-				checksum: "...",
-				content_type: "...",  // envelope, notice, source, spdx, doc, other
-				alias: "...",
-				label: "...",
-				openchain: "...",
-				timestamp: "..."
-				artifact_list: [...]   /* used for envelopes but not for singular artifact */
-				uri_list: [ {
-                    			version: "...",
-							   alias: "...",
-							   checksum: "...",
-							   size:	"..."
-							   content_type: "...",  // http, ipfs, ...
-							   location: "https://...."
+		name: "...",
+		uuid: "...",
+		filename: "...",
+		checksum: "...",
+		content_type: "...",  // envelope, notice, source, spdx, doc, other
+		alias: "...",
+		label: "...",
+		openchain: "...",
+		timestamp: "..."
+		artifact_list: [...]   /* used for envelopes but not for singular artifact */
+		uri_list: [ {
+          			version: "...",
+							  alias: "...",
+							  checksum: "...",
+							  size:	"..."
+							  content_type: "...",  // http, ipfs, ...
+							  location: "https://...."
 						   }
 						 ]
 				}
@@ -79,25 +77,25 @@ Example of a <u>single</u> artifact response:
 	message: 	"OK",
 	result_type: "ArtifactRecord",
 	result: {
-				name: "Zephyr 1.12 Notice File",
-				uuid: "26559ed4-6868-488d-a5a7-3e81714beb00",
-				filename: "Zephyr-1.12-Notices.txt",
-				checksum: "f855d41c49e80b9d6f2a13148e5eb838607e92f1",
-				content_type: "notices",
-				alias: "zephyr-notices-1.12",
-				label: "Zephyr Notices 1.12",
-				openchain: "True",
-				timestamp: "2018-06-18 00:30:12.498167"
-				artifact_list: []   /* not used for singular artifact */
-				uri_list: [ {
-                    			version: "1.0",
-							   alias: "zephyr-notices-1.12",
-							   checksum: "Zephyr Notices 1.12",
-							   size:	"235120"
-							   content_type: "http",
-							   location: "https://...."
-						   }
-						 ]
+		name: "Zephyr 1.12 Notice File",
+		uuid: "26559ed4-6868-488d-a5a7-3e81714beb00",
+		filename: "Zephyr-1.12-Notices.txt",
+		checksum: "f855d41c49e80b9d6f2a13148e5eb838607e92f1",
+		content_type: "notices",
+		alias: "zephyr-notices-1.12",
+		label: "Zephyr Notices 1.12",
+		openchain: "True",
+		timestamp: "2018-06-18 00:30:12.498167"
+		artifact_list: []   /* not used for singular artifact */
+		uri_list: [ {
+  			version: "1.0",
+			   alias: "zephyr-notices-1.12",
+			   checksum: "Zephyr Notices 1.12",
+			   size:	"235120"
+			   content_type: "http",
+			   location: "https://...."
+				   }
+				 ]
 }
 ```
 
