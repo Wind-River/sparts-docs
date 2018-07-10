@@ -1,4 +1,4 @@
-# Sparts Project: Ledger Node API
+# Ledger Node API
 
 ## Overview
 
