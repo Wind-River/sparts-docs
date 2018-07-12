@@ -15,6 +15,8 @@ Sparts is a decentralized immutable ledger built using Hyperledger Sawtooth.
    :maxdepth: 2
 
    intro
+   ledger/ledger
+   cli/cli
    atlas
    faq
    community

@@ -1,5 +1,5 @@
-# Introduction
+# Community
 
-## Why we need it
+## Discussion
 
-## Case Study
+## IRC chat

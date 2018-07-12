@@ -1,5 +1,5 @@
-# Introduction
+# Atlas
 
 ## Why we need it
 
-## Case Study
+## How to register
