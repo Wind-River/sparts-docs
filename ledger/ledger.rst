@@ -6,9 +6,9 @@ To setup a node follow the admin guide.
 
 
 .. toctree::
-
    :maxdepth: 2
-   ledger/user.md
-   ledger/api.md
-   ledger/admin.md
-   ledger/contributer.md
+
+   user.md
+   api.md
+   admin.md
+   contributer.md

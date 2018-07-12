@@ -8,5 +8,5 @@ You can download the CLI from this github repo
 .. toctree::
    :maxdepth: 2
 
-   cli/user.md
-   cli/contributer.md
+   user.md
+   contributer.md
