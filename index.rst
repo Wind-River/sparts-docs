@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Sparts' Documentation!
+Sparts' Documentation!
 =======================================
 
 **Sparts** allows you to track open source components used in your software supply chain.

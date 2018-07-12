@@ -5,6 +5,7 @@ The Command Line Interace is an example of an application used to communicate wi
 
 
 .. toctree::
+
    :maxdepth: 2
    ledger/user.md
    ledger/api.md
